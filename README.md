@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: Council Browser
 description: Give Council Room agents a real browser. Navigate pages, extract content, fill forms, and scrape sites that block simple fetch. Built natively on Playwright — no third-party binaries. Use when Gabriel needs to monitor competitors, Metis needs to research, or Raguel needs to find contacts.
@@ -45,3 +49,13 @@ cd ~/.openclaw/workspace/skills/council-browser
 npm install playwright
 npx playwright install chromium
 ```
+
+## Installation
+
+```bash
+cp -r council-browser/ ~/.openclaw/workspace/skills/council-browser/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
